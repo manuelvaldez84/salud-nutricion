@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+<title>Insertar Contenido</title>
+<link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+<header>
+ <div class="imagensuperior"> </div>
+<nav class="navegar">
+<ul class="lista">
+<li><a href="consulta.html">Consultar Menu</a></li>
+<li><a href="menu.php">Regresar a Inicio</a></li>
+</nav>
+</header>
+<body>
+<br>
+<div class="container">
+<div class="registrar-container">
+<div class="inserta">
+<br>
+<form action="inserta.php" method="post" name="inserta">
+<h2>Insertar Menu</h2>
+<br>
+<br>
+Tipo de Menu:
+<div class="menu">
+<select name="tipo_menu" class="inserta">
+   <option value="1">Desayunos</option> 
+   <option value="2">Almuerzos</option> 
+   <option value="3">Frutas y Vegetales</option>
+   <option value="4">Postres</option> 
+</select></div>
+<br>
+<br>
+Titulo Plato:
+<input type="text" name="titulo" class="inserta"><br><br>
+Descripcion Plato:
+<input type="textarea" name="descripcion" class="inserta"><br><br>
+Carbohidratos:
+<input type="text" name="carbohidratos" class="inserta"><br><br>
+Grasas:
+<input type="text" name="grasas" class="inserta"><br><br>
+Vitaminas:
+<input type="text" name="vitaminas" class="inserta"><br><br>
+Minerales:
+<input type="text" name="minerales" class="inserta"><br><br>
+Fibra:
+<input type="text" name="fibra" class="inserta"><br><br>
+<br>
+<input type="submit" class="submit" value="Insertar Contenido">
+</form>
+<br>
+<form action="menu.php" method="post">
+<input type="submit" class="submit" value="Volver al Menu">
+</form>
+</div>
+ </div>
+  </div>
+</body>
+</html>
