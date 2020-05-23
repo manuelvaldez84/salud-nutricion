@@ -1,0 +1,156 @@
+body{
+		margin:0;
+		padding:0;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	
+		
+.imagensuperior{
+	width: 100%;
+	height: 200px;
+	background-image: url('../imagen/interfaz.jpg');
+	background-repeat: no repeat;
+	background-image: #000000;
+	background-size: cover;
+	opacity: 0.6;
+	}
+	
+	.navegar{
+		width: 800px;
+		margin: 30px auto;
+		background: #3FCF73;
+		border-radius: 62px 62px 68px 64px;
+		text-align: center;
+		font-size: x-large;
+	}
+	
+	.navegar ul{
+		list-style: none;
+			}
+		
+	.lista >li{
+		position: center;
+		display: inline-block;
+		
+	}
+	.lista li a{
+		display: block;
+		padding: 15px 20px;
+		color: #fff;
+		font-family: 'Bahnschrift SemiBold';
+		text-decoration: none;
+		margin: 1em 0;
+		font-size:x-large;
+		text-align: center;
+		text-shadow: 1px 2px #999;
+	}
+	
+	
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;   
+}
+ 
+.registrar-container{
+  display: flex;
+  width: 650px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  position:absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  font-family: 'Bahnschrift SemiBold';
+
+}
+  
+  .inserta{
+  background-image: linear-gradient(to bottom right, #3FCF73, #4cac6e);
+  padding: 10px;
+  flex: 1;
+  color: #fff;
+  }
+
+
+.inserta h2{
+  color: #fff;
+  margin-bottom: 45px;
+  font-family:Bahnschrift SemiBold ;
+  font-size: xx-large;
+}
+ 
+ .inserta .submit{
+  width: auto;
+  padding: 10px;
+  background: #f17108;
+  color: #fff;
+  font-size: 25px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+  cursor: pointer;
+ }
+ 
+.inserta input{
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+  margin-bottom: 25px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #fff;
+  font-size: 20px;
+  
+}
+
+.menu {
+  width: 100%;
+   font-size: 30px;
+  font-family:Bahnschrift SemiBold ;
+}
+
+ /* Estilos consulta.html */
+ 
+.tabla{
+	 font-family: 'Bahnschrift SemiBold';
+	 font-size: x-large;
+	 color: #000000;
+	 text-align: center;
+	 opacity: 0.8; 
+	 display: flex;
+	 position: fixed;
+	 width: 100%;
+	 height: 100%;
+	 padding: 1px;
+	 top: 50%;
+	 left: 20%;
+	
+ }
+ 
+
+th, td {
+	border: solid 1px black;
+	padding:0 ;
+}
+
+
+.titulo{
+	font-family: 'Bahnschrift SemiBold';
+	color: #00000;
+	text-align: center;
+}
+
+@media (max-width: 400px){
+	.registrar-container{
+		width:90%;
+	}
+}
